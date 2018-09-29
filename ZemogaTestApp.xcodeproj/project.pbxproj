@@ -11,7 +11,6 @@
 		419F0930215E96F300AB2D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419F092E215E96F300AB2D62 /* Main.storyboard */; };
 		419F0932215E96F500AB2D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419F0931215E96F500AB2D62 /* Assets.xcassets */; };
 		419F0935215E96F500AB2D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419F0933215E96F500AB2D62 /* LaunchScreen.storyboard */; };
-		419F0940215E96F500AB2D62 /* ZemogaTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419F093F215E96F500AB2D62 /* ZemogaTestAppTests.swift */; };
 		419F0950215EB6BB00AB2D62 /* URLBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419F094F215EB6BB00AB2D62 /* URLBase.swift */; };
 		419F0952215EB79800AB2D62 /* BuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419F0951215EB79800AB2D62 /* BuildManager.swift */; };
 		419F0955215EB96A00AB2D62 /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419F0954215EB96A00AB2D62 /* ContentService.swift */; };
@@ -37,6 +36,8 @@
 		419F098E215F286700AB2D62 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419F098D215F286700AB2D62 /* UserManager.swift */; };
 		419F0990215F286E00AB2D62 /* CommentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419F098F215F286E00AB2D62 /* CommentManager.swift */; };
 		419F0992215F39E000AB2D62 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 419F0991215F39E000AB2D62 /* README.md */; };
+		41CBFB7C215F3EA5007DB9B7 /* ContentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CBFB7B215F3EA5007DB9B7 /* ContentServiceTests.swift */; };
+		41CBFB80215F427F007DB9B7 /* PostManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CBFB7F215F427F007DB9B7 /* PostManagerTests.swift */; };
 		C4A504EEEE1FB34F0A7FCF8B /* Pods_ZemogaTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF20AE42184BE0576183119 /* Pods_ZemogaTestAppTests.framework */; };
 		EC631548835713D8EDCBE094 /* Pods_ZemogaTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7954522FE65A79DEB49935F /* Pods_ZemogaTestApp.framework */; };
 /* End PBXBuildFile section */
@@ -61,7 +62,6 @@
 		419F0934215E96F500AB2D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		419F0936215E96F500AB2D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		419F093B215E96F500AB2D62 /* ZemogaTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZemogaTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		419F093F215E96F500AB2D62 /* ZemogaTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZemogaTestAppTests.swift; sourceTree = "<group>"; };
 		419F0941215E96F500AB2D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		419F094F215EB6BB00AB2D62 /* URLBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBase.swift; sourceTree = "<group>"; };
 		419F0951215EB79800AB2D62 /* BuildManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildManager.swift; sourceTree = "<group>"; };
@@ -88,6 +88,9 @@
 		419F098D215F286700AB2D62 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		419F098F215F286E00AB2D62 /* CommentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentManager.swift; sourceTree = "<group>"; };
 		419F0991215F39E000AB2D62 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		41CBFB7A215F3EA5007DB9B7 /* ZemogaTestAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZemogaTestAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		41CBFB7B215F3EA5007DB9B7 /* ContentServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentServiceTests.swift; sourceTree = "<group>"; };
+		41CBFB7F215F427F007DB9B7 /* PostManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostManagerTests.swift; sourceTree = "<group>"; };
 		447A1776625BAD354A1F5879 /* Pods-ZemogaTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZemogaTestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZemogaTestAppTests/Pods-ZemogaTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		56471388FCF21F77ECB38BDE /* Pods-ZemogaTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZemogaTestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZemogaTestAppTests/Pods-ZemogaTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		87DB148B35561EA0DE9C5D55 /* Pods-ZemogaTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZemogaTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZemogaTestApp/Pods-ZemogaTestApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,8 +158,10 @@
 		419F093E215E96F500AB2D62 /* ZemogaTestAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				419F093F215E96F500AB2D62 /* ZemogaTestAppTests.swift */,
 				419F0941215E96F500AB2D62 /* Info.plist */,
+				41CBFB7B215F3EA5007DB9B7 /* ContentServiceTests.swift */,
+				41CBFB7A215F3EA5007DB9B7 /* ZemogaTestAppTests-Bridging-Header.h */,
+				41CBFB7F215F427F007DB9B7 /* PostManagerTests.swift */,
 			);
 			path = ZemogaTestAppTests;
 			sourceTree = "<group>";
@@ -344,6 +349,7 @@
 					};
 					419F093A215E96F500AB2D62 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 						TestTargetID = 419F0926215E96F300AB2D62;
 					};
 				};
@@ -490,7 +496,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				419F0940215E96F500AB2D62 /* ZemogaTestAppTests.swift in Sources */,
+				41CBFB7C215F3EA5007DB9B7 /* ContentServiceTests.swift in Sources */,
+				41CBFB80215F427F007DB9B7 /* PostManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,6 +689,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MTF94RS4FS;
 				INFOPLIST_FILE = ZemogaTestAppTests/Info.plist;
@@ -692,6 +700,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bocanumenth.ZemogaTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZemogaTestAppTests/ZemogaTestAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZemogaTestApp.app/ZemogaTestApp";
@@ -704,6 +714,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MTF94RS4FS;
 				INFOPLIST_FILE = ZemogaTestAppTests/Info.plist;
@@ -714,6 +725,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bocanumenth.ZemogaTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZemogaTestAppTests/ZemogaTestAppTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZemogaTestApp.app/ZemogaTestApp";
